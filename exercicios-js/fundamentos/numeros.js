@@ -17,3 +17,4 @@ console.log(media.toFixed(4)); // numero de casas decimais
 console.log(media.toString());
 console.log(media.toString(2)); // muda a base
 console.log(typeof media);
+console.log(typeof Number);
