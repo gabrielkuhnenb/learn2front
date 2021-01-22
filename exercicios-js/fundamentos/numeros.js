@@ -18,3 +18,16 @@ console.log(media.toString());
 console.log(media.toString(2)); // muda a base
 console.log(typeof media);
 console.log(typeof Number);
+
+// alguns cuidados
+
+console.log(7 / 0); // em outras linguagens daria problema, aqui da infinito
+
+// nao tem problema usar strings nas divisoes
+console.log("10" / 2);
+console.log('10' / 2);
+
+console.log("pipa nelas" * 2); // not a number
+console.log((0.1 + 0.7).toFixed(2));
+
+console.log((10.377).toFixed(2));
